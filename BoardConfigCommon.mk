@@ -216,3 +216,10 @@ TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_msm8996
 
 # inherit from the proprietary version
 -include vendor/lge/msm8996-common/BoardConfigVendor.mk
+
+#CAF
+TARGET_QCOM_DISPLAY_VARIANT := caf-msm8996
+TARGET_QCOM_AUDIO_VARIANT := caf-msm8996
+TARGET_QCOM_MEDIA_VARIANT := caf-msm8996
+
+QCOM_HARDWARE_VARIANT := msm8996
